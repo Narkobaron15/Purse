@@ -1,9 +1,15 @@
 ﻿using System;
 
-internal class Program
+namespace Purse
 {
-    private static void Main()
+    internal class Program
     {
-        Console.WriteLine("Hello, World!");
+        private static void Main()
+        {
+            IPaymentMethod money = new Money(6.25d, "UAH");
+            Console.WriteLine(money);
+
+            // hint: credit card may have negative balance
+        }
     }
 }
