@@ -10,6 +10,9 @@ namespace Purse
             Console.WriteLine(money);
 
             // hint: credit card may have negative balance
+
+            //IPaymentMethod creditCard = new CreditCard(0, "UAH");
+            //Console.WriteLine(creditCard);
         }
     }
 }
